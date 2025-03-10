@@ -20,8 +20,9 @@ public class SampleSolutionV1 {
     while (true) {
       System.out.print("Enter String " + count + ": ");
       String input = scanner.nextLine();
+      //String input = EasyIn.getString(); 
 
-      if (input.equals("end")) {
+      if (input.equals("end") || (count>inputArray.length-1)) {
          break;
       } //end if
 
