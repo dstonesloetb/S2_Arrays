@@ -11,7 +11,7 @@ public class StringDigitCheck {
         String[] stringArray = {
             "apple123",
             "banana",
-            "grape456",
+            "grape3456",
             "cherry",
             "mango789"
         };
