@@ -3,7 +3,8 @@ public class MaxDigitStringFinder {
         String[] inputArray = {"Hello123", "Test4567", "World12345", "NoDigitsHere", "Another1234"};
         
         String result = findStringWithMostDigits(inputArray);
-        System.out.println("String with most digits: " + result);
+        System.out.println("String with most digits: " + result+ 
+                " has "+ countDigits(result)+" digits");
     }
 
     // Function to find the string with the most digits
